@@ -1,0 +1,30 @@
+/*
+	Viet chuong trinh nhap vao 1 so nguyen duong n.
+	Tinh tich cac so chan cua n.
+	vd: 1246 => 2x4x6 = 48
+*/
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+main()
+{
+	int n, tich = 1, dem = 0;
+	do
+	{
+		printf("Nhap so nguyen duong n = ");
+		scanf("%d", &n);
+	} while(n<=0);
+	
+	while(n!=0)
+	{
+		if((n%10)%2 == 0)
+		{
+			dem ++;
+			tich = tich*(n%10);	
+		}
+		n = n/10;
+	}
+	if(dem != 0) printf("Tich cac so chan = %d\n", tich);
+	else printf("Khong co so chan\n");
+	return 0;
+}

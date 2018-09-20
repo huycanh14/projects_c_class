@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	float a, b, c, p, s;
+	do
+	{
+		printf("Nhap so canh cua tam giac: ");
+		scanf("%f %f % f", &a, &b, &c);
+	}while(a<=0 || b<=0 || c<=0);
+}
+

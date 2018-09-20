@@ -1,0 +1,12 @@
+/*
+	Nhap so nguyen duong n (khong chua chu so 0)
+	Tim UCLN cua cac chu so n
+*/
+
+#inclde<stdio.h>
+#inclde<conio.h>
+main()
+{
+	
+}
+
